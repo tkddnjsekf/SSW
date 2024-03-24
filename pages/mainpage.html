@@ -14,14 +14,14 @@
   <meta property="og:description" content="GDD, UXUI디자인, 레벨디자인 등 그외 모든 게임기획서 모음." />
   <meta property="og:image" content="./images/12.JPG.png" />
   <!-- 아텐츠주소 대신 자신의 웹페이지 주소로 바꾸세요 -->
-  <meta property="og:url" content="https://atentsgamedesignsite19.netlify.app" />
+  <meta property="og:url" content="https://sage-speculoos-f27c8f.netlify.app/" />
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="아나킨의 문서창고" />
   <meta property="twitter:title" content="HOME" />
   <meta property="twitter:description" content="GDD, UXUI디자인, 레벨디자인 등 그외 모든 게임기획서 모음." />
   <meta property="twitter:image" content="./images/12.JPG.png" />
   <!-- 아텐츠주소 대신 자신의 웹페이지 주소로 바꾸세요 -->
-  <meta property="twitter:url" content="https://atentsgamedesignsite19.netlify.app" />
+  <meta property="twitter:url" content="https://sage-speculoos-f27c8f.netlify.app/" />
   <link rel="icon" href="/favicon_mo.ico" />
   <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
 
@@ -31,25 +31,21 @@
   <!-- JavaScript Bundle with Popper -->
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-  </script>
+    </script>
 
 
 
   <style>
-    
-    body {     
-      background-image: url('/images/111.jpg');     
-    background-size: 100% 35%; /* 가로폭을 화면에 맞추고, 세로폭은 이미지 비율에 맞게 조절 */
-    background-attachment: cover;
-    background-position: top; 
-    width: 100%;
-    height: 100px; /* 세로폭을 화면의 20%로 설정 */
-    overflow: auto;
-    background-repeat: no-repeat;
-    
+    body {
+      width: 100%;
+      height: 100px;
+      /* 세로폭을 화면의 20%로 설정 */
+      overflow: auto;
+      background-repeat: no-repeat;
+
     }
-    
-    
+
+
     .b-example-divider {
       height: 3rem;
       background-color: rgba(0, 0, 0, .1);
@@ -86,6 +82,24 @@
       white-space: nowrap;
       -webkit-overflow-scrolling: touch;
     }
+
+    .carousel-control-prev {
+      position: absolute;
+      left: -140px;
+    }
+
+    .carousel-control-next {
+      position: absolute;
+      right: -140px;
+    }
+
+    .carousel-control-next-icon {
+      background-color: black;
+    }
+
+    .carousel-control-prev-icon {
+      background-color: black;
+    }
   </style>
 </head>
 
@@ -117,7 +131,8 @@
             stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
             viewBox="0 0 24 24">
             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-            <circle cx="12" cy="13" r="4" /></svg>
+            <circle cx="12" cy="13" r="4" />
+          </svg>
           <strong>서상원</strong>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
@@ -129,79 +144,96 @@
   </header>
 
   <main>
-    <section class="py-5 text-center container">
+    <section class="py-5 text-center" style="
+      background-image: url('/images/111.jpg');
+      /* background-size:contain; */ 
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-bottom: 0;">
       <div class="row py-lg-6">
-        
+        <div style="
+            background: url('../images/22.jpg'); 
+            background-size: 100% 100%;
+            border-image-slice: 7 12 14 5;
+            padding-top: 20px; width: auto;
+            margin: auto;" class="lead">
           <h1 class="fw-light" style="color: gold;"><b>게임 시스템 or 콘텐츠 기획자</b></h1>
-          
-          <p class="lead text-muted" style="color: yellow">1.Focus On 레벨 디자인 - 팀작업 2.Sprit witch - 개인작업</p>
-          <p>
-           
-            <a href="https://atentsgame.com/" class="btn btn-outline-dark my-2">나의 목표</a>
-          </p>
+          <p class="lead text-muted" style="color: yellow !important">1.Focus On 레벨 디자인 - 팀작업</p>
+          <p class="lead text-muted" style="color: yellow !important">2.Sprit witch - 개인작업</p>
         </div>
       </div>
     </section>
 
-    <div class="album py-5 ">
+    <section class="">
+      <p class="text-center" style="margin: 0;">
+        <a href="https://atentsgame.com/" class="btn btn-outline-primary my-2">나의 목표</a>
+      </p>
+    </section>
+
+    <div class="album">
       <div class="container">
-
-          <!-- 캐로셀 테스트 -->
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="/pages/sub01.html">
-                  <img src="/images/fo.JPG" width="960" height="540" class="d-block w-100" alt="우주선1"></a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>focus on</h5>
-                  <p>살아남은 소녀들의 이야기</p>
-                
-                  <p></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/images/spaceship02.jpg" width="960" height="540" class="d-block w-100" alt="우주선2">
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="/pages/sub02.html" class="btn btn-outline-dark">라스트오더</a>
-                  <h5>Ultra JRPG</h5>
-                  <p>귀엽고 깜찍한 우리 어린 아이들의 이야기.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/images/spaceship03.jpg" width="960" height="540" class="d-block w-100" alt="우주선3">
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="/pages/sub03.html" class="btn btn-outline-danger">맨앤캐논</a>
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="/images/spaceship04.jpg" width="960" height="540" class="d-block w-100" alt="우주선4">
-                <div class="carousel-caption d-none d-md-block">
-                  <a href="/pages/sub04.html" class="btn btn-outline-primary">모코코푸른별</a>
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        <!-- 캐로셀 테스트 -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
           </div>
-          <!-- 캐로셀 테스트 끝 -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="/pages/sub01.html">
+                <img src="/images/fo.JPG" width="960" height="540" class="d-block w-100" alt="우주선1"></a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>focus on</h5>
+                <p>살아남은 소녀들의 이야기</p>
 
-          <!-- <div class="col">
+                <p></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/spaceship02.jpg" width="960" height="540" class="d-block w-100" alt="우주선2">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="/pages/sub02.html" class="btn btn-outline-dark">라스트오더</a>
+                <h5>Ultra JRPG</h5>
+                <p>귀엽고 깜찍한 우리 어린 아이들의 이야기.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/spaceship03.jpg" width="960" height="540" class="d-block w-100" alt="우주선3">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="/pages/sub03.html" class="btn btn-outline-danger">맨앤캐논</a>
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/images/spaceship04.jpg" width="960" height="540" class="d-block w-100" alt="우주선4">
+              <div class="carousel-caption d-none d-md-block">
+                <a href="/pages/sub04.html" class="btn btn-outline-primary">모코코푸른별</a>
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- 캐로셀 테스트 끝 -->
+
+        <!-- <div class="col">
             <div class="card shadow-sm" width="100%">
               <img src="/images/spaceship01.jpg" class="card-img-top" alt="우주선1">
               <div class="card-body">
@@ -267,13 +299,13 @@
 
   </main>
 
-  <footer class="text-muted py-5" >
-    <div class="container" >
-      
+  <footer class="text-muted py-5">
+    <div class="container">
+
       <p class="float-end mb-1">
         <a href="/index.html">Back to HOME</a>
       </p>
-      
+
       <p class="mb-1" style="color: #E4FCFF;">게임 콘텐츠 기획 및 시스템 기획</p>
       <p class="mb-0"> <a href="">서상원의 포트폴리오</a> </p>
     </div>
