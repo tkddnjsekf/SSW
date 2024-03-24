@@ -1,3 +1,8 @@
+my part
+<img src="https://img.shields.io/badge/2. level design -blue?style=flat&logo=level design, monster system&logoColor=white"/>
+<img src="https://img.shields.io/badge/5. monster list - red?style=flat&logo=level design, monster system&logoColor=white"/>
+
+
 # 포커스온
 ## 1. GDD
 ## 2. 레벨디자인
