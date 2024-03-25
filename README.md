@@ -4,8 +4,8 @@ my part
 
 # 포커스온 
 ## 1. GDD
-## 2. 레벨디자인 ()
-## 3. 세계관 (https://docs.google.com/document/d/1ocZwECsGag_n3gN2QEGHy0u5JKcG-az-8Ox7RIlrgkM/edit)
+## 2. 레벨 콘셉 디자인 
+## 3. 세계관
 ## 4. 스토리
 ## 5. 시나리오
 ### 5-1. 메인 시나리오
