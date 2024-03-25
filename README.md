@@ -3,7 +3,7 @@ my part
 <img src="https://img.shields.io/badge/5. monster list - red?style=flat&logo=level design, monster system&logoColor=white"/>
 
 # 포커스온 
-======
+
 기획 기간: 2024.03.11 ~ 2024.03.22 
 ------
 |  맴버 |: 담당파트 |
